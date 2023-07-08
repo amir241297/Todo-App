@@ -1,0 +1,28 @@
+#parent {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#parent>input,
+button {
+    padding: 5px;
+}
+
+table {
+    border: 1px solid teal;
+    width: 70%;
+    margin: auto;
+}
+
+table>tr>th,td {
+    border: 1px solid teal;
+    /* align-items: center; */
+}
+
+td {
+    text-align: center;
+}
+/* table>tr>button{
+    margin-left: 50px;
+} */
